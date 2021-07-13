@@ -10,7 +10,7 @@ long() { echo "-h
     posel output to /dev/null"
 	exit 1; }
 
-noparams() { echo "upravitelj_poslov.sh [-lqh] [-p <path>] [-f <name>]"; exit 1;}
+noparams() { echo "ProcessTester.sh [-lqh] [-p <path>] [-f <name>]"; exit 1;}
 
 if [ $# -eq 0 ]; then
     noparams
